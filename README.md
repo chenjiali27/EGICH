@@ -22,3 +22,14 @@ EGICH/
 ├── ops.py  
 ├── settings.py  
 └── trainer.py
+```
+
+## RUN 
+First, run the following code to generate `wordnet_embedding_ensemble.npy`.
+```bash
+python3 wordnet/wordnet_embedding.py
+```
+Then, run the following code to perform training.
+```bash
+python3 main.py
+```

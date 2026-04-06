@@ -5,7 +5,26 @@ Get file from **[clip](https://huggingface.co/openai/clip-vit-base-patch32)**
 '''text
 EGICH/clip/                          
 clip.py 
+### Project Structure
 
+`EGICH/`  
+`├── clip/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # get from **[clip](https://huggingface.co/openai/clip-vit-base-patch32)** `│   ├── clip.py`  
+`│   ├── config.json`  
+`│   ├── preprocessor_config.json`  
+`│   ├── pytorch_model.bin`  
+`│   └── tokenizer.json`  
+`├── utils/`  
+`│   └── calc_hammingranking.py`  
+`├── wordnet/`  
+`│   ├── wordnet_embedding.py`  
+`│   └── WordNetNouns.csv`  
+`├── load_dataset.py`  
+`├── loss.py`  
+`├── main.py`  
+`├── models.py`  
+`├── ops.py`  
+`├── settings.py`  
+`└── trainer.py`
 
 ## RUN
 1.python3 wordnet/wordnet_embedding.py

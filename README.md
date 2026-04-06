@@ -2,14 +2,19 @@
 The code for **[External Guidance Incomplete Cross-modal Hashing (TIP'26)](https://ieeexplore.ieee.org/abstract/document/11433515)**
 
 ## Code Repository Directory
+Get the files of clip from [clip](https://huggingface.co/openai/clip-vit-base-patch32)
 ```text
 EGICH/
-├── clip/                          # get from [clip](https://huggingface.co/openai/clip-vit-base-patch32)
+├── clip/                          
 │   ├── clip.py 
 │   ├── config.json 
 │   ├── preprocessor_config.json
 │   ├── pytorch_model.bin      
 │   └── tokenizer.json
+├── dataset/                        
+│   ├── MIRFlickr.h5
+│   ├── MS-COCO.h5
+│   └── NUS-WIDE.h5
 ├── utils/                        
 │   └── calc_hammingranking.py          
 ├── wordnet/ 

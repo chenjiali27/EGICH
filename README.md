@@ -1,8 +1,8 @@
 ## EGICH
-The code for **[External Guidance Incomplete Cross-modal Hashing (TIP'26)](https://ieeexplore.ieee.org/abstract/document/11433515)**
+The code for **[External Guidance Incomplete Cross-modal Hashing (TIP'26)](https://ieeexplore.ieee.org/abstract/document/11433515)**.
 
 ## Code Repository Directory
-Get the files of clip from [clip](https://huggingface.co/openai/clip-vit-base-patch32)
+Get the files of clip from [clip](https://huggingface.co/openai/clip-vit-base-patch32).
 ```text
 EGICH/
 ├── clip/                          
